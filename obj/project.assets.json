@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
+    "net6.0": {
       "Microsoft.AspNetCore.OpenApi/9.0.0": {
         "type": "package"
       }
@@ -26,7 +26,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0": [
+    "net6.0": [
       "Microsoft.AspNetCore.OpenApi >= 9.0.0"
     ]
   },
@@ -46,15 +46,15 @@
         "/Users/mhalpin/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net6.0"
       ],
       "sources": {
         "/opt/homebrew/Cellar/dotnet/9.0.101/libexec/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -71,8 +71,8 @@
       "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
@@ -93,15 +93,15 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.11, 8.0.11]"
+            "version": "[6.0.36, 6.0.36]"
           },
           {
             "name": "Microsoft.NETCore.App.Host.osx-arm64",
-            "version": "[8.0.11, 8.0.11]"
+            "version": "[6.0.36, 6.0.36]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.11, 8.0.11]"
+            "version": "[6.0.36, 6.0.36]"
           }
         ],
         "frameworkReferences": {
@@ -112,7 +112,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.101/libexec/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.101/libexec/sdk/9.0.101/RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -120,10 +120,10 @@
     {
       "code": "NU1202",
       "level": "Error",
-      "message": "Package Microsoft.AspNetCore.OpenApi 9.0.0 is not compatible with net8.0 (.NETCoreApp,Version=v8.0). Package Microsoft.AspNetCore.OpenApi 9.0.0 supports: net9.0 (.NETCoreApp,Version=v9.0)",
+      "message": "Package Microsoft.AspNetCore.OpenApi 9.0.0 is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Package Microsoft.AspNetCore.OpenApi 9.0.0 supports: net9.0 (.NETCoreApp,Version=v9.0)",
       "libraryId": "Microsoft.AspNetCore.OpenApi",
       "targetGraphs": [
-        "net8.0"
+        "net6.0"
       ]
     }
   ]
