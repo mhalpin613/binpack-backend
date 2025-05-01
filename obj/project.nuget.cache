@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "XWviMrnb0gM=",
+  "success": true,
+  "projectFilePath": "/Users/mhalpin/Documents/BinPack/BinPack.csproj",
+  "expectedPackageFiles": [
+    "/Users/mhalpin/.nuget/packages/microsoft.aspnetcore.openapi/9.0.0/microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "/Users/mhalpin/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

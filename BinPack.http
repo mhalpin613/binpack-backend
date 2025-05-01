@@ -1,0 +1,6 @@
+@BinPack_HostAddress = http://localhost:5236
+
+GET {{BinPack_HostAddress}}/binpacker/
+Accept: application/json
+
+###
