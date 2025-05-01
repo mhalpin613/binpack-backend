@@ -1,11 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "XWviMrnb0gM=",
-  "success": true,
+  "dgSpecHash": "LDhpgD0kCDs=",
+  "success": false,
   "projectFilePath": "/Users/mhalpin/Documents/BinPack/BinPack.csproj",
   "expectedPackageFiles": [
     "/Users/mhalpin/.nuget/packages/microsoft.aspnetcore.openapi/9.0.0/microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
-    "/Users/mhalpin/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+    "/Users/mhalpin/.nuget/packages/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/mhalpin/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/mhalpin/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.11/microsoft.netcore.app.host.osx-arm64.8.0.11.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.AspNetCore.OpenApi 9.0.0 is not compatible with net8.0 (.NETCoreApp,Version=v8.0). Package Microsoft.AspNetCore.OpenApi 9.0.0 supports: net9.0 (.NETCoreApp,Version=v9.0)",
+      "libraryId": "Microsoft.AspNetCore.OpenApi",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

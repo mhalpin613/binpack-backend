@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BinPack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30b557c55284711688c8204d0cfb6fcf7d30ed5b")]
 [assembly: System.Reflection.AssemblyProductAttribute("BinPack")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BinPack")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -31,3 +31,4 @@
 /Users/mhalpin/Documents/BinPack/obj/Debug/net9.0/BinPack.pdb
 /Users/mhalpin/Documents/BinPack/obj/Debug/net9.0/BinPack.genruntimeconfig.cache
 /Users/mhalpin/Documents/BinPack/obj/Debug/net9.0/ref/BinPack.dll
+/Users/mhalpin/Documents/BinPack/obj/Debug/net9.0/BinPack.sourcelink.json
