@@ -11,5 +11,5 @@ A simple .NET 8 microservice for solving 2D bin packing problems using a binary 
 - Accepts a list of 2D boxes via JSON
 - Packs boxes into a fixed-size container
 - Returns their `(x, y)` positions within the bin
-- CI/CD pipeline using Azure DevOps
+- CI/CD pipeline using Azure and Github Actions
 - Hosted on Azure App Service
